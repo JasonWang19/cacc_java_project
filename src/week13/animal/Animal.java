@@ -18,4 +18,17 @@ public abstract class Animal implements Movable {
     }
 
     public abstract void drink(String abc);
+
+    public static class Leg {
+        private int weight;
+
+        public int getWeight() {
+            return weight;
+        }
+
+        public Leg(int weight) {
+            this.weight = weight;
+        }
+    }
+
 }
