@@ -20,6 +20,8 @@ public class Circus {
 
     List<Movable> performers = new ArrayList<>();
 
+    List<Movable> performer2 = new ArrayList<Movable>();
+
     public void performTogether() {
 //        for(Vehicle vehicle : vehicles) {
 //            vehicle.move();
